@@ -1,66 +1,63 @@
+/* Normalization */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-.mobile-pic {
-	display: none;
-}
-
-.resume-link {
-	font-size: 17px;
-}
-
-.my-name {
-	font-size: 30px;
-}
-
-.euiPageSideBar {
-	position: fixed;
-	display: block;
-	width: 250px;
-	margin-top: -22px;
-}
-
-.euiPageBody {
-	margin-left: 270px;
-	margin-top: -22px;
-}
-
-.euiSideNav {
-	width: 124px;
-}
-
-.euiListGroup {
-	width: 242px;
-}
-
-.desk-contact {
-	width: 186px;
-}
-
+/* Hide mobile version of nav group initially */
 .euiCollapsibleNavGroup {
 	display: none;
 }
 
+/* Set width of mobile contact links */
+.euiListGroup {
+	width: 242px;
+}
+
+/* Hide mobile version of profile pic initially */
+.mobile-pic {
+	display: none;
+}
+
+/* Format sidebar component */
+.euiPageSideBar {
+	display: block;
+	position: fixed;
+	width: 250px;
+	margin-top: -22px;
+}
+
+/* Increase size of desktop page title */
+.my-name {
+	font-size: 40px;
+}
+
+/* Set width of desktop page links */
+.euiSideNav {
+	width: 124px;
+}
+
+/* Match resume link style w/ other links' style */
+.resume-link {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+/* Set width of desktop contact links */
+.desk-contact {
+	width: 186px;
+}
+
+/* Set margins of page body */
+.euiPageBody {
+	margin: -22px 0 0 270px;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 767px) {
-	.mobile-pic {
-		display: block;
-		width: 55%;
-		margin: 0 auto;
-		margin-top: 95px;
-	}
 
-	.euiPageSideBar {
-		display: none;
-	}
-
-	.euiPageBody {
-		margin-left: 0px;
-	}
-
+	/* Make nav group appear properly formatted */
 	.euiCollapsibleNavGroup {
 		display: block;
 		position: fixed;
@@ -68,4 +65,23 @@
 		width: 100%;
 		margin-top: -95px;
 	}
+
+	/* Make mobile version of profile pic appear properly formatted */
+	.mobile-pic {
+		display: block;
+		width: 55%;
+		margin: 0 auto;
+		margin-top: 95px;
+	}
+
+	/* Hide sidebar in mobile version */
+	.euiPageSideBar {
+		display: none;
+	}
+
+	/* Remove whitespace in mobile version */
+	.euiPageBody {
+		margin-left: 0px;
+	}
+
 }
