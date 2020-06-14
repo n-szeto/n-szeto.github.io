@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mobile-pic {
+	display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.resume-link {
+	font-size: 17px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.my-name {
+	font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.euiPageSideBar {
+	position: fixed;
+	display: block;
+	width: 250px;
+	margin-top: -22px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.euiPageBody {
+	margin-left: 270px;
+	margin-top: -22px;
+}
+
+.euiSideNav {
+	width: 124px;
+}
+
+.euiListGroup {
+	width: 242px;
+}
+
+.desk-contact {
+	width: 186px;
+}
+
+.euiCollapsibleNavGroup {
+	display: none;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 767px) {
+	.mobile-pic {
+		display: block;
+		width: 55%;
+		margin: 0 auto;
+		margin-top: 95px;
+	}
+
+	.euiPageSideBar {
+		display: none;
+	}
+
+	.euiPageBody {
+		margin-left: 0px;
+	}
+
+	.euiCollapsibleNavGroup {
+		display: block;
+		position: fixed;
+		z-index: 1;
+		width: 100%;
+		margin-top: -95px;
+	}
 }

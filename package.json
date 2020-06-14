@@ -2,11 +2,16 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-	"homepage": "https://n-szeto.github.io/",
+  "homepage": "https://n-szeto.github.io/",
   "dependencies": {
+    "@babel/polyfill": "^7.10.1",
+    "@elastic/datemath": "^5.0.3",
+    "@elastic/eui": "^25.0.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "moment": "^2.26.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -16,8 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build -b master”
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -b master"
   },
   "eslintConfig": {
     "extends": "react-app"
