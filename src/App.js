@@ -194,11 +194,10 @@ const App = () => {
 					<PageSection title='About Me'>
 
 						<EuiText>
-							Hello! I'm am currently a freshman student at Williams College.
-							Currently, I am a prospective mathematics major and I'm
-							interested in many industries including consulting, finance,
-							and economic research. Soon I will be working at Laffer
-							Associates as an economic research intern.
+							Hello! I'm am currently a freshman student at Williams College as
+							well as a prospective mathematics major. My professional interests
+							include consulting, finance, and economic research. Soon I will be
+							working at Laffer Associates as an economic research intern.
 						</EuiText>
 
 					</PageSection>
@@ -221,8 +220,8 @@ const App = () => {
 									title='Student Technology Consultant'
 									description='Williams College, Sep 2019 - Mar 2020'>
 									<EuiText><ul>
-										<li>Assist students and faculty w/ a variety of issues
-												ranging from printing to network connectivity.</li>
+										<li>Assist client w/ a variety of issues ranging from
+												printing to network connectivity.</li>
 										<li>Communicate w/ clients consistently to ensure issues are
 												resolved and subsequently cataloged for future
 												reference.</li>
