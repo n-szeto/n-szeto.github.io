@@ -194,7 +194,7 @@ const App = () => {
 					<PageSection title='About Me'>
 
 						<EuiText>
-							Hello! I'm am currently a freshman student at Williams College as
+							Hello! I am currently a freshman student at Williams College as
 							well as a prospective mathematics major. My professional interests
 							include consulting, finance, and economic research. Soon I will be
 							working at Laffer Associates as an economic research intern.
