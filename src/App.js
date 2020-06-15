@@ -220,7 +220,7 @@ const App = () => {
 									title='Student Technology Consultant'
 									description='Williams College, Sep 2019 - Mar 2020'>
 									<EuiText><ul>
-										<li>Assist client w/ a variety of issues ranging from
+										<li>Assist clients w/ a variety of issues ranging from
 												printing to network connectivity.</li>
 										<li>Communicate w/ clients consistently to ensure issues are
 												resolved and subsequently cataloged for future
